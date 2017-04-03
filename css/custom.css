@@ -1,0 +1,43 @@
+body{
+    background: #EB5757; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #EB5757 , #000000); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #EB5757 , #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+header {
+    height: 100px;
+    margin-bottom: 25px;
+}
+
+header h1 {
+    text-align: center;
+    padding: 25px;
+    vertical-align: middle;
+    color: #fff;
+}
+
+.form-control {
+    width: 300px;
+}
+
+.form-group {
+    display: inline-block;
+    
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.hide {
+    display: none;
+}
+
+/* to center a button within a div */
+.btn-center {
+    text-align: center;
+}
+
+.text-center {
+    color: #fff;
+}
