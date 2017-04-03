@@ -17,10 +17,10 @@ form.addEventListener('submit', function(e) {
 function getWiki() {
 	var http = new XMLHttpRequest();
 	var url = 'https://en.wikipedia.org/w/api.php?action=opensearch&search=' + txt.value + '&limit=10&namespace=0&format=json';
-	
+	var proxy = 'https://cors-anywhere.herokuapp.com/';	
 	var method = 'GET';
 
-	http.open(method, url);
+	http.open(method, proxy + url);
 
 	http.onreadystatechange = function() {
         if (http.readyState == XMLHttpRequest.DONE && http.status === 200) {
